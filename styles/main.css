@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Jacquard+12&family=M+PLUS+1:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(/images/ecd67255b08380eb534d3f8ee397bc85-ezgif.com-gif-to-webp-converter.webp);
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 1.5;
+  background-size: cover;
+  background-color: rgb(0, 0, 0);
+}
+
+.hidden {
+  display: none;
+}
+
+#intro-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* color: antiquewhite; */
+  background-color: rgba(15, 11, 11, 0.623);
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.start-gamebtn {
+  background-color: gray;
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.start-gamebtn:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.main-h2 {
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-size: 50px;
+  font-style: normal;
+  color: bisque;
+}
+
+#main-para {
+  font-weight: 400;
+  font-size: 17px;
+  font-style: normal;
+  color: bisque;
+}
+
+.row {
+  display: flex;
+}
+
+.tile {
+  background-size: cover;
+  aspect-ratio: 1/1;
+  height: 50px;
+}
+
+#game-container {
+  width: 100%;
+  /* min-height: 100vh; */
+  align-items: center;
+  justify-content: center;
+}
+
+#ingame-screen {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+#tool-bar {
+  color: white;
+}
+
+.tool {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+
+#shovel {
+  background-image: url(/images/Shovel.webp);
+}
+
+#axe {
+  background-image: url(/images/Axe.webp);
+}
+
+#pickaxe {
+  background-image: url(/images/Diamond_Pickaxe.webp);
+}
+
+#inventory {
+  background-image: url(/images/Large_Chest.webp);
+}
+
+.selected-tool {
+  background-color: white;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <title>Minecraft</title>
+  </head>
+  <body>
+    <audio id="background-music" loop>
+      <source src="/images/Minecraft.mp3" type="audio/mpeg" />
+    </audio>
+    <section id="intro-container">
+      <h1 class="main-h2">Welcome to Minecraft</h1>
+      <div id="main-para">
+        <p>YOU NEED TO PICK A TOOL</p>
+        <p>USE THE TOOL TO TAKE OFF A TILE FROM THE SCREEN</p>
+        <p>YOU CAN PLACE THE TILE BACK WHEREVER YOU WANT</p>
+      </div>
+      <br />
+      <button class="start-gamebtn">Start Your adventure</button>
+    </section>
+    <section id="ingame-screen">
+      <div id="tool-bar">
+        <div class="tool" id="shovel"></div>
+        <div class="tool" id="axe"></div>
+        <div class="tool" id="pickaxe"></div>
+        <div class="tool" id="inventory"></div>
+      </div>
+      <div id="game-container"></div>
+    </section>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
